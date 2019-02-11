@@ -28,3 +28,9 @@ end
 def find_a(array)
   array.select {|index| index[0].downcase == "a"}
 end
+
+def sum_array(array)
+  my_sum = 0
+  array.each {|index| my_sum += index}
+  my_sum
+end
