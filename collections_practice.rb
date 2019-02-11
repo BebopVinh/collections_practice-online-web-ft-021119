@@ -13,6 +13,6 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-  third_pop = array[2].pop
+  third_pop = array.pop(2)
   array.insert(1, third_pop)
 end
