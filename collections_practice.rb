@@ -34,3 +34,7 @@ def sum_array(array)
   array.each {|index| my_sum += index}
   my_sum
 end
+
+def add_s(array)
+  array.except(array[1]).each {|index| index << "s"}
+end
