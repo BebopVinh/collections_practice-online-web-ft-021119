@@ -13,7 +13,7 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-  third_pop = array.pop(2)
+  third_pop = array.delete_at(2)
   binding.pry
   array.insert(1, third_pop)
 end
