@@ -12,3 +12,7 @@ def sort_array_char_count(array)
   array.sort_by { |index| index.length }
 end
 
+def swap_elements(array)
+  third_pop = array[2].pop
+  array.insert(1, third_pop)
+end
