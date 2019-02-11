@@ -27,3 +27,4 @@ end
 
 def find_a(array)
   array.select {|index| index[0].downcase == "a"}
+end
