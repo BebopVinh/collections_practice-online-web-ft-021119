@@ -38,4 +38,5 @@ end
 def add_s(array)
   second_ele = array.delete_at(1)
   array.each {|index| index << "s"}
+  array.insert(1, second_ele)
 end
