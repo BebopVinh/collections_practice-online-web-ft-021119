@@ -14,6 +14,5 @@ end
 
 def swap_elements(array)
   third_pop = array.delete_at(2)
-  binding.pry
   array.insert(1, third_pop)
 end
