@@ -24,3 +24,6 @@ end
 def kesha_maker(array)
   array.each {|index| index[2] = "$"}
 end
+
+def find_a(array)
+  array.select {|index| index[0].downcase == "a"
