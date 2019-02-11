@@ -37,5 +37,5 @@ end
 
 def add_s(array)
   second_ele = array.delete_at(1)
-  array.except(1).each {|index| index << "s"}
+  array.each {|index| index << "s"}
 end
